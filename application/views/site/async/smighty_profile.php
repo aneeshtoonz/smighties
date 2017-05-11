@@ -2,9 +2,11 @@
   <i class="ion-close-round"></i>
 </button>
 
-<div class="profile-left pull-left">
+<div class="profile-left <?php echo strtolower($data->element)?> pull-left">
 
     <h2 class="text-left"><?php echo $data->name?></h2>
+
+    <div class="element-ico <?php echo strtolower($data->element)?>"></div>
 
     <div class="text-center profile-image">
         <img src="<?php echo $image_show_path?>/<?php echo $data->image_url?>" />

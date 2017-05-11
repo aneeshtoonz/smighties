@@ -32,6 +32,8 @@ class Model_smighties extends MY_Model {
            $this->db->where(array('rarity' => $rarity));
         }
 
+        $this->db->order_by('orderby', 'ASC');
+
         //TODO: - Paginate the result set
 
         $query = $this->db->get();

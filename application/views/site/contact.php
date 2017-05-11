@@ -12,6 +12,8 @@
 
                 <div class="col-lg-10 nofloats inline text-left contact-wrapper mt-xxxlg">
 
+                    <button type="button" onclick="javascript: window.location.href='<?php echo HOST_URL?>/'" id="yt-player-close" class="contact-close"></button>
+
                     <div class="title">
                         <h1 class="mb-md">Contact Us</h1>
                         <h2 class="visible-lg visible-md">Please get your parent’s permission before submitting your message</h2>

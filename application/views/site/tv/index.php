@@ -91,9 +91,9 @@
     <!-- Modal rubberBand-->
     <div class="modal animated fade" id="tvModal" tabindex="-1" role="dialog" aria-labelledby="tvModal">
 
-      <button type="button" id="yt-player-close" data-dismiss="modal" aria-label="Close"></button>
-
       <div class="modal-dialog tvplayer-modal" role="document">
+
+          <button type="button" id="yt-player-close" data-dismiss="modal" aria-label="Close"></button>
 
           <div class="tvplayer col-lg-12">
               <!-- <iframe id="player-iframe" src="https://www.youtube.com/embed/UM_4pAUAp2E?rel=0" frameborder="0" allowfullscreen="allowfullscreen" mozallowfullscreen="mozallowfullscreen" msallowfullscreen="msallowfullscreen" oallowfullscreen="oallowfullscreen" webkitallowfullscreen="webkitallowfullscreen"></iframe> -->

@@ -10,7 +10,7 @@
 
               <div class="page-title">
                 <h1 class="grd-txt">Wallpapers</h1>
-                <h2>Download your favorite smighties games</h2>
+                <h2>Download your favorite Smighties games</h2>
               </div>
 
               <div class="clearfix"></div>

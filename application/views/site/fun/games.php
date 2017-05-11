@@ -10,7 +10,7 @@
 
               <div class="page-title">
                 <h1 class="grd-txt">Mobile Games</h1>
-                <h2>Download your favorite smighties games</h2>
+                <h2>Download your favorite Smighties games</h2>
               </div>
 
               <div class="clearfix"></div>
@@ -68,6 +68,25 @@
                                   <div class="clearfix"></div>
                                   <a target="_blank" href="https://itunes.apple.com/us/app/smighty-stack/id1155597650?mt=8"><img src="images/apple-app-store-button.png" alt=""></a>
                                   <a target="_blank" href="https://play.google.com/store/apps/details?id=com.herotainment.smighty.stack&hl=en" class="ml-sm"><img src="images/google-play-store-button.png" alt=""></a>
+
+                              </div>
+
+                         </div>
+
+                         <div class="col-lg-12 game-item col-xs-12 col-sm-12 col-md-12">
+
+                              <div class="image-lg-shw pull-left game-img">
+                                  <img src="images/game-image-3.png" alt=""/>
+                              </div>
+
+                              <div class="col-lg-8 game-content">
+
+                                  <h2 class="game-title">Smighty Sweeper</h2>
+                                  <p>Surf’s Up for the Smighties! Send these small creatures on a vacation to the Smighty Hotel. But first you have to find them!</p>
+
+                                  <div class="clearfix"></div>
+                                  <a target="_blank" href="https://itunes.apple.com/us/app/smighty-sweeper/id998705309?mt=8"><img src="images/apple-app-store-button.png" alt=""></a>
+                                  <a target="_blank" href="https://play.google.com/store/apps/details?id=com.herotainment.smighty.sweeper.android&hl=en" class="ml-sm"><img src="images/google-play-store-button.png" alt=""></a>
 
                               </div>
 
