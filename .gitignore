@@ -5,6 +5,3 @@
 !*/cache/index.html
 !*/cache/.htaccess
 !backups/
-!system/*
-!*/system/*
-!vendor/*
