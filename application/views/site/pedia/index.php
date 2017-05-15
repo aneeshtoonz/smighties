@@ -60,12 +60,12 @@
                     Region: All <span class="caret"></span>
                   </button>
                   <ul class="dropdown-menu" aria-labelledby="dLabel">
-                    <li><a href="#" onclick="javascript: load__smlists(document.getElementById('name_no_tmp').value, '', document.getElementById('rarity_tmp').value); $(this).parent().parent().parent().find('button').html('Region: All <span class=caret></span>');">All</a></li>
-                    <li><a href="#" onclick="javascript: load__smlists(document.getElementById('name_no_tmp').value, 'Air', document.getElementById('rarity_tmp').value); $(this).parent().parent().parent().find('button').html('Region: Air <span class=caret></span>');">Air</a></li>
-                    <li><a href="#" onclick="javascript: load__smlists(document.getElementById('name_no_tmp').value, 'Earth', document.getElementById('rarity_tmp').value); $(this).parent().parent().parent().find('button').html('Region: Earth <span class=caret></span>');">Earth</a></li>
-                    <li><a href="#" onclick="javascript: load__smlists(document.getElementById('name_no_tmp').value, 'Water', document.getElementById('rarity_tmp').value); $(this).parent().parent().parent().find('button').html('Region: Water <span class=caret></span>');">Water</a></li>
-                    <li><a href="#" onclick="javascript: load__smlists(document.getElementById('name_no_tmp').value, 'Light', document.getElementById('rarity_tmp').value); $(this).parent().parent().parent().find('button').html('Region: Light <span class=caret></span>');">Light</a></li>
-                    <li><a href="#" onclick="javascript: load__smlists(document.getElementById('name_no_tmp').value, 'Magic', document.getElementById('rarity_tmp').value); $(this).parent().parent().parent().find('button').html('Region: Magic <span class=caret></span>');">Magic</a></li>
+                    <li><a href="#" onclick="javascript: load__smlists(document.getElementById('name_no_tmp').value, '', document.getElementById('rarity_tmp').value, 0); $(this).parent().parent().parent().find('button').html('Region: All <span class=caret></span>');">All</a></li>
+                    <li><a href="#" onclick="javascript: load__smlists(document.getElementById('name_no_tmp').value, 'Air', document.getElementById('rarity_tmp').value , 0); $(this).parent().parent().parent().find('button').html('Region: Air <span class=caret></span>');">Air</a></li>
+                    <li><a href="#" onclick="javascript: load__smlists(document.getElementById('name_no_tmp').value, 'Earth', document.getElementById('rarity_tmp').value , 0); $(this).parent().parent().parent().find('button').html('Region: Earth <span class=caret></span>');">Earth</a></li>
+                    <li><a href="#" onclick="javascript: load__smlists(document.getElementById('name_no_tmp').value, 'Water', document.getElementById('rarity_tmp').value , 0); $(this).parent().parent().parent().find('button').html('Region: Water <span class=caret></span>');">Water</a></li>
+                    <li><a href="#" onclick="javascript: load__smlists(document.getElementById('name_no_tmp').value, 'Light', document.getElementById('rarity_tmp').value , 0); $(this).parent().parent().parent().find('button').html('Region: Light <span class=caret></span>');">Light</a></li>
+                    <li><a href="#" onclick="javascript: load__smlists(document.getElementById('name_no_tmp').value, 'Magic', document.getElementById('rarity_tmp').value , 0); $(this).parent().parent().parent().find('button').html('Region: Magic <span class=caret></span>');">Magic</a></li>
 
                   </ul>
                 </div>
@@ -75,12 +75,12 @@
                     Rarity: Any <span class="caret"></span>
                   </button>
                   <ul class="dropdown-menu" aria-labelledby="dLabel">
-                    <li><a href="#" onclick="javascript: load__smlists(document.getElementById('name_no_tmp').value, document.getElementById('element_tmp').value, ''); $(this).parent().parent().parent().find('button').html('Rarity: Any <span class=caret></span>');">Any</a></li>
-                    <li><a href="#" onclick="javascript: load__smlists(document.getElementById('name_no_tmp').value, document.getElementById('element_tmp').value, 'Super Duper Rare'); $(this).parent().parent().parent().find('button').html('Rarity: Super Duper Rare <span class=caret></span>');">Super Duper Rare</a></li>
-                    <li><a href="#" onclick="javascript: load__smlists(document.getElementById('name_no_tmp').value, document.getElementById('element_tmp').value, 'Super Rare'); $(this).parent().parent().parent().find('button').html('Rarity: Super Rare <span class=caret></span>');">Super Rare</a></li>
-                    <li><a href="#" onclick="javascript: load__smlists(document.getElementById('name_no_tmp').value, document.getElementById('element_tmp').value, 'Very Rare'); $(this).parent().parent().parent().find('button').html('Rarity: Very Rare <span class=caret></span>');">Very Rare</a></li>
-                    <li><a href="#" onclick="javascript: load__smlists(document.getElementById('name_no_tmp').value, document.getElementById('element_tmp').value, 'Rare'); $(this).parent().parent().parent().find('button').html('Rarity: Rare <span class=caret></span>');">Rare</a></li>
-                    <li><a href="#" onclick="javascript: load__smlists(document.getElementById('name_no_tmp').value, document.getElementById('element_tmp').value, 'Limited'); $(this).parent().parent().parent().find('button').html('Rarity: Limited <span class=caret></span>');">Limited</a></li>
+                    <li><a href="#" onclick="javascript: load__smlists(document.getElementById('name_no_tmp').value, document.getElementById('element_tmp').value, '' , 0); $(this).parent().parent().parent().find('button').html('Rarity: Any <span class=caret></span>');">Any</a></li>
+                    <li><a href="#" onclick="javascript: load__smlists(document.getElementById('name_no_tmp').value, document.getElementById('element_tmp').value, 'Super Duper Rare', 0); $(this).parent().parent().parent().find('button').html('Rarity: Super Duper Rare <span class=caret></span>');">Super Duper Rare</a></li>
+                    <li><a href="#" onclick="javascript: load__smlists(document.getElementById('name_no_tmp').value, document.getElementById('element_tmp').value, 'Super Rare', 0); $(this).parent().parent().parent().find('button').html('Rarity: Super Rare <span class=caret></span>');">Super Rare</a></li>
+                    <li><a href="#" onclick="javascript: load__smlists(document.getElementById('name_no_tmp').value, document.getElementById('element_tmp').value, 'Very Rare', 0); $(this).parent().parent().parent().find('button').html('Rarity: Very Rare <span class=caret></span>');">Very Rare</a></li>
+                    <li><a href="#" onclick="javascript: load__smlists(document.getElementById('name_no_tmp').value, document.getElementById('element_tmp').value, 'Rare', 0); $(this).parent().parent().parent().find('button').html('Rarity: Rare <span class=caret></span>');">Rare</a></li>
+                    <li><a href="#" onclick="javascript: load__smlists(document.getElementById('name_no_tmp').value, document.getElementById('element_tmp').value, 'Limited', 0); $(this).parent().parent().parent().find('button').html('Rarity: Limited <span class=caret></span>');">Limited</a></li>
                   </ul>
                 </div>
 
@@ -96,12 +96,12 @@
                         Region: All <span class="caret"></span>
                       </button>
                       <ul class="dropdown-menu" aria-labelledby="dLabel">
-                        <li><a href="#" onclick="javascript: load__smlists(document.getElementById('name_no_tmp').value, '', document.getElementById('rarity_tmp').value); $(this).parent().parent().parent().find('button').html('Region: All <span class=caret></span>');">All</a></li>
-                        <li><a href="#" onclick="javascript: load__smlists(document.getElementById('name_no_tmp').value, 'Air', document.getElementById('rarity_tmp').value); $(this).parent().parent().parent().find('button').html('Region: Air <span class=caret></span>');">Air</a></li>
-                        <li><a href="#" onclick="javascript: load__smlists(document.getElementById('name_no_tmp').value, 'Earth', document.getElementById('rarity_tmp').value); $(this).parent().parent().parent().find('button').html('Region: Earth <span class=caret></span>');">Earth</a></li>
-                        <li><a href="#" onclick="javascript: load__smlists(document.getElementById('name_no_tmp').value, 'Water', document.getElementById('rarity_tmp').value); $(this).parent().parent().parent().find('button').html('Region: Water <span class=caret></span>');">Water</a></li>
-                        <li><a href="#" onclick="javascript: load__smlists(document.getElementById('name_no_tmp').value, 'Light', document.getElementById('rarity_tmp').value); $(this).parent().parent().parent().find('button').html('Region: Light <span class=caret></span>');">Light</a></li>
-                        <li><a href="#" onclick="javascript: load__smlists(document.getElementById('name_no_tmp').value, 'Magic', document.getElementById('rarity_tmp').value); $(this).parent().parent().parent().find('button').html('Region: Magic <span class=caret></span>');">Magic</a></li>
+                        <li><a href="#" onclick="javascript: load__smlists(document.getElementById('name_no_tmp').value, '', document.getElementById('rarity_tmp').value, 0); $(this).parent().parent().parent().find('button').html('Region: All <span class=caret></span>');">All</a></li>
+                        <li><a href="#" onclick="javascript: load__smlists(document.getElementById('name_no_tmp').value, 'Air', document.getElementById('rarity_tmp').value, 0); $(this).parent().parent().parent().find('button').html('Region: Air <span class=caret></span>');">Air</a></li>
+                        <li><a href="#" onclick="javascript: load__smlists(document.getElementById('name_no_tmp').value, 'Earth', document.getElementById('rarity_tmp').value, 0); $(this).parent().parent().parent().find('button').html('Region: Earth <span class=caret></span>');">Earth</a></li>
+                        <li><a href="#" onclick="javascript: load__smlists(document.getElementById('name_no_tmp').value, 'Water', document.getElementById('rarity_tmp').value, 0); $(this).parent().parent().parent().find('button').html('Region: Water <span class=caret></span>');">Water</a></li>
+                        <li><a href="#" onclick="javascript: load__smlists(document.getElementById('name_no_tmp').value, 'Light', document.getElementById('rarity_tmp').value, 0); $(this).parent().parent().parent().find('button').html('Region: Light <span class=caret></span>');">Light</a></li>
+                        <li><a href="#" onclick="javascript: load__smlists(document.getElementById('name_no_tmp').value, 'Magic', document.getElementById('rarity_tmp').value, 0); $(this).parent().parent().parent().find('button').html('Region: Magic <span class=caret></span>');">Magic</a></li>
 
                       </ul>
                     </div>
@@ -113,12 +113,12 @@
                         Rarity: Any <span class="caret"></span>
                       </button>
                       <ul class="dropdown-menu" aria-labelledby="dLabel">
-                        <li><a href="#" onclick="javascript: load__smlists(document.getElementById('name_no_tmp').value, document.getElementById('element_tmp').value, ''); $(this).parent().parent().parent().find('button').html('Rarity: Any <span class=caret></span>');">Any</a></li>
-                        <li><a href="#" onclick="javascript: load__smlists(document.getElementById('name_no_tmp').value, document.getElementById('element_tmp').value, 'Super Duper Rare'); $(this).parent().parent().parent().find('button').html('Rarity: Super Duper Rare <span class=caret></span>');">Super Duper Rare</a></li>
-                        <li><a href="#" onclick="javascript: load__smlists(document.getElementById('name_no_tmp').value, document.getElementById('element_tmp').value, 'Super Rare'); $(this).parent().parent().parent().find('button').html('Rarity: Super Rare <span class=caret></span>');">Super Rare</a></li>
-                        <li><a href="#" onclick="javascript: load__smlists(document.getElementById('name_no_tmp').value, document.getElementById('element_tmp').value, 'Very Rare'); $(this).parent().parent().parent().find('button').html('Rarity: Very Rare <span class=caret></span>');">Very Rare</a></li>
-                        <li><a href="#" onclick="javascript: load__smlists(document.getElementById('name_no_tmp').value, document.getElementById('element_tmp').value, 'Rare'); $(this).parent().parent().parent().find('button').html('Rarity: Rare <span class=caret></span>');">Rare</a></li>
-                        <li><a href="#" onclick="javascript: load__smlists(document.getElementById('name_no_tmp').value, document.getElementById('element_tmp').value, 'Limited'); $(this).parent().parent().parent().find('button').html('Rarity: Limited <span class=caret></span>');">Limited</a></li>
+                        <li><a href="#" onclick="javascript: load__smlists(document.getElementById('name_no_tmp').value, document.getElementById('element_tmp').value, '', 0); $(this).parent().parent().parent().find('button').html('Rarity: Any <span class=caret></span>');">Any</a></li>
+                        <li><a href="#" onclick="javascript: load__smlists(document.getElementById('name_no_tmp').value, document.getElementById('element_tmp').value, 'Super Duper Rare', 0); $(this).parent().parent().parent().find('button').html('Rarity: Super Duper Rare <span class=caret></span>');">Super Duper Rare</a></li>
+                        <li><a href="#" onclick="javascript: load__smlists(document.getElementById('name_no_tmp').value, document.getElementById('element_tmp').value, 'Super Rare', 0); $(this).parent().parent().parent().find('button').html('Rarity: Super Rare <span class=caret></span>');">Super Rare</a></li>
+                        <li><a href="#" onclick="javascript: load__smlists(document.getElementById('name_no_tmp').value, document.getElementById('element_tmp').value, 'Very Rare', 0); $(this).parent().parent().parent().find('button').html('Rarity: Very Rare <span class=caret></span>');">Very Rare</a></li>
+                        <li><a href="#" onclick="javascript: load__smlists(document.getElementById('name_no_tmp').value, document.getElementById('element_tmp').value, 'Rare', 0); $(this).parent().parent().parent().find('button').html('Rarity: Rare <span class=caret></span>');">Rare</a></li>
+                        <li><a href="#" onclick="javascript: load__smlists(document.getElementById('name_no_tmp').value, document.getElementById('element_tmp').value, 'Limited', 0); $(this).parent().parent().parent().find('button').html('Rarity: Limited <span class=caret></span>');">Limited</a></li>
                       </ul>
                     </div>
                   </div>
@@ -130,6 +130,7 @@
               <input type="hidden" name="name_no_tmp" id="name_no_tmp" />
               <input type="hidden" name="element_tmp" id="element_tmp" />
               <input type="hidden" name="rarity_tmp" id="rarity_tmp" />
+              <input type="hidden" name="page_tmp" id="page_tmp" value="0"/>
 
               <div class="clearfix"></div>
 
@@ -141,12 +142,16 @@
                     </div>
                 </div>
 
+                <div id="loader"></div>
+
+                <script type="text/javascript" src="<?php echo JS_PATH?>/scrollmagic.min.js"></script>
+
                 <script type="text/javascript">
 
                     $(function() {
 
                         // Null loader for lists
-                        load__smlists('','');
+                        load__smlists('','', '', 0);
 
                         // Submit filter action button
                         var submit__filter = $('#filter-submit');
@@ -156,24 +161,49 @@
                             var name_no = $('#name_no').val(), element = $('#element').val();
 
                             // Call to laoder
-                            load__smlists(name_no, element, '');
+                            load__smlists(name_no, element, '', 0);
                             // return false;
                         });
 
                     });
 
                     // Load sm details container
-                    function load__smlists(name_no = '', element = '', rarity = '') {
+                    function load__smlists(name_no = '', element = '', rarity = '', page = 1) {
                        var smvid__loader = $('#sm-loader');
 
                        $("#name_no_tmp").val(name_no);
                        $("#element_tmp").val(element);
                        $("#rarity_tmp").val(rarity);
+                       $("#page_tmp").val(page);
 
                        smvid__loader.html('<div class="sm-loading"></div>');
-                       smvid__loader.load('<?php echo HOST_URL?>/async/smighties?name_no=' + name_no + '&element=' + element + '&rarity=' + encodeURI(rarity), function(d){ });
+                       smvid__loader.load('<?php echo HOST_URL?>/async/smighties?name_no=' + name_no + '&element=' + element + '&rarity=' + encodeURI(rarity) + '&page=' + page, function(d){ });
                        return false;
                     }
+
+                    // Inifinte Scroll trigger
+                    var controller = new ScrollMagic.Controller();
+
+                    // build scene
+                  	var scene = new ScrollMagic.Scene({
+                                    triggerElement: "#loader",
+                                    triggerHook: "onEnter"
+                                })
+                  					    .addTo(controller)
+                  					    .on("enter", function (e) {
+
+                                    var smvid__loader = $('#sm-loader');
+                                    var name_no = $("#name_no_tmp").val(),
+                                        element = $("#element_tmp").val(),
+                                        rarity = $("#rarity_tmp").val(),
+                                        page = $(document).find(".group-page:last").attr("data-page");
+                                        page = ++page;
+
+                                    $.get('<?php echo HOST_URL?>/async/smighties?name_no=' + name_no + '&element=' + element + '&rarity=' + encodeURI(rarity) + '&page=' + page, function(data){
+                                        smvid__loader.append(data);
+                                    });
+
+                                });
 
                 </script>
 

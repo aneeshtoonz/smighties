@@ -4,7 +4,7 @@
         <a href="<?php echo HOST_URL?>/privacy-policy" class="coppa-lg">PRIVACY POLICY</a>
         <a href="<?php echo HOST_URL?>/terms-of-use" class="coppa-lg">TERMS</a>
         <a href="<?php echo HOST_URL?>/news">NEWS ROOM</a>
-        <a href="<?php echo HOST_URL?>/blog">BLOG</a>
+        <!-- <a href="<?php //echo HOST_URL?>/blog">BLOG</a> -->
         <a href="<?php echo HOST_URL?>/contact">CONTACT</a>
     </div>
 

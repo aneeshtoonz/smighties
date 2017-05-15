@@ -11,23 +11,19 @@ class Async extends CI_Controller {
 
 		public function get_smighties() {
 
-			//  $this->data['content'] = SITE_VIEWS . '/async/get_smighties';
+			 //  $this->data['content'] = SITE_VIEWS . '/async/get_smighties';
        $this->load->model(SITE_MODELS . '/model_smighties', 'modelNameAlias');
-      //  $this->load->library('encrypt');
-
        $this->data['records'] = $this->modelNameAlias->get_smighties($_GET);
+       $this->data['page'] = $_GET['page'];
+       
        $this->data['image_show_path'] = SMIGHTIES_SHOW_PATH;
 
 			 $this->load->view(SITE_VIEWS . '/async/get_smighties', $this->data);
-
 		}
 
     public function smighty_profile($profile_id) {
 
-        // $this->data['content'] = SITE_VIEWS . '/async/smighty_profile';
         $this->load->model(SITE_MODELS . '/model_smighties', 'modelNameAlias');
-        // $this->load->library('encrypt');
-
         $this->data['data'] = $this->modelNameAlias->fetchById($profile_id);
         $this->data['image_show_path'] = SMIGHTIES_SHOW_PATH;
         $this->data['card_show_path'] = SMIGHTIES_CARD_SHOW_PATH;

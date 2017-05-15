@@ -22,30 +22,16 @@
                     <div class="col-lg-4 news-item mb-lg col-xs-12 col-md-12 col-sm-12 hvr-grow">
                         <div class="col-lg-12 col-xs-10 col-sm-10 col-md-10">
                             <div class="inline">
-                              <a href="<?php echo HOST_URL?>/news/trailer-ferdinand-blu-sky-studios">
+                              <a href="<?php echo HOST_URL?>/news/smighties-characters-inspire-toonz-series">
                                   <img src="images/news1.jpg" alt="" />
                               </a>
                               <div class="clearfix"></div>
-                              <a href="<?php echo HOST_URL?>/news/trailer-ferdinand-blu-sky-studios">
-                                  <div class="title"> Watch the Trailer For Blue Sky Studios’ ‘Ferdinand’</div>
+                              <a href="<?php echo HOST_URL?>/news/smighties-characters-inspire-toonz-series">
+                                  <div class="title">Smighties Characters Inspire Toonz Series</div>
                               </a>
                             </div>
                         </div>
-                    </div>
-
-                    <div class="col-lg-4 news-item mb-lg col-xs-12 col-md-12 col-sm-12 hvr-grow">
-                      <div class="col-lg-12 col-xs-10 col-sm-10 col-md-10">
-                          <div class="inline">
-                              <a href="<?php echo HOST_URL?>/news/hey-duggee-creator-grant-orchard">
-                                  <img src="images/news2.jpg" alt="" />
-                              </a>
-                              <div class="clearfix"></div>
-                              <a href="<?php echo HOST_URL?>/news/hey-duggee-creator-grant-orchard">
-                                  <div class="title"> ‘Hey Duggee’ Creator Grant Orchard On Creating</div>
-                              </a>
-                          </div>
-                      </div>
-                    </div>
+                    </div> 
 
                   </div>
 
